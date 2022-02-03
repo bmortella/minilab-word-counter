@@ -1,3 +1,26 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+main {
+  display: flex;
+  padding: 50px;
+}
+
+#count {
+  margin-left: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#count-btn {
+  color: white;
+  background-color: dodgerblue;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
